@@ -1,0 +1,3 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#333F3E"/> <!-- Replace with your desired color --><!-- Optional: Add rounded corners --><!-- Optional: Add padding -->
+</shape>
