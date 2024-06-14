@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".DevInfo">
 
+
+
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#333F3E"
+        android:background="#ffffff"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="15dp"
@@ -20,18 +23,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/dev"
-            tools:srcCompat="@drawable/dev" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/rectangle">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="200dp"
+                android:layout_height="171dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="300dp"
+                android:paddingStart="80dp"
+                android:paddingTop="3dp"
+                app:srcCompat="@drawable/dev"
+                tools:srcCompat="@drawable/dev" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="464dp"
             android:layout_marginTop="50dp"
-            android:background="@drawable/main_screen_top_tab"
+            android:background="@color/white"
             android:gravity="center_horizontal"
             android:orientation="vertical"
             android:padding="15dp">
@@ -40,7 +56,8 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Developer Info"
+                android:text="Personal Infomation"
+                android:layout_marginLeft="-26dp"
                 android:textColor="#333F3E"
                 android:textSize="24dp"
                 android:textStyle="bold" />
@@ -51,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
-                android:text="Name : Bawantha Wijekoon"
-                android:textColor="#333F3E"
+                android:text="Name : K.Dinuka Shalinda"
+                android:textColor="#9393ad"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
@@ -62,21 +79,59 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:text="Student No : 2021t01255"
-                android:textColor="#333F3E"
+                android:text="Student No : 2021t01242"
+                android:textColor="#9393ad"
                 android:textSize="15dp"
                 android:textStyle="bold" />
-
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="bottom"
-                android:text="Version 0.1"
-                android:textColor="#333F3E"
+                android:layout_marginTop="5dp"
+                android:text="Birth Date : 2001.12.20"
+                android:textColor="#9393ad"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="E-mail :dinuka@gmail.com"
+                android:textColor="#9393ad"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
         </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="105dp"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif"
+        android:text="Profile"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bottom_background_blue"
+        app:layout_constraintBottom_toBottomOf="parent">
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

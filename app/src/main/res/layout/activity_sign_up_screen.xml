@@ -7,32 +7,27 @@
     tools:context=".signUpScreen">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#333F3E"
+        android:background="#ffffff"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/img3" />
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/rectangle"
+            app:srcCompat="@drawable/img2" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="Create an account"
-            android:textColor="#E2E3E1"
-            android:textSize="20dp"
-            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editUserName"
@@ -96,17 +91,19 @@
             android:layout_height="45dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="110dp"
-            android:backgroundTint="#E2E3E1"
-            android:text="Create"
-            android:textColor="#333F3E"
-            android:textSize="15dp"
+            android:backgroundTint="#363698"
+            android:text="Sign up"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
         <LinearLayout
+            android:id="@+id/linearLayout3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="58dp"
             android:gravity="center"
+            android:background="@drawable/bottom_background_blue"
             android:orientation="horizontal">
 
             <TextView
@@ -114,7 +111,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Have an account?"
+                android:layout_marginLeft="-20dp"
+                android:text="Already Have an account?"
                 android:textColor="#E2E3E1"
                 android:textSize="14dp" />
 
@@ -130,6 +128,26 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-black"
+        android:rotationX="-25"
+        android:text="D Tasker"
+        android:textAllCaps="false"
+        android:textColor="#9393ad"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
