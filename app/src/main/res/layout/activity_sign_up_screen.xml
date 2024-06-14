@@ -101,7 +101,7 @@
             android:id="@+id/linearLayout3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="60dp"
             android:gravity="center"
             android:background="@drawable/bottom_background_blue"
             android:orientation="horizontal">
