@@ -15,7 +15,7 @@
         android:background="#ffffff"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="15dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -31,14 +31,14 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="200dp"
-                android:layout_height="171dp"
-                android:layout_marginLeft="25dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="65dp"
                 android:layout_marginBottom="300dp"
                 android:paddingStart="80dp"
-                android:paddingTop="3dp"
-                app:srcCompat="@drawable/dev"
-                tools:srcCompat="@drawable/dev" />
+                android:paddingTop="30dp"
+                app:srcCompat="@drawable/devinfo"
+                tools:srcCompat="@drawable/devinfo" />
 
 
         </LinearLayout>
@@ -83,16 +83,7 @@
                 android:textColor="#9393ad"
                 android:textSize="15dp"
                 android:textStyle="bold" />
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="5dp"
-                android:text="Birth Date : 2001.12.20"
-                android:textColor="#9393ad"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
@@ -112,12 +103,13 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="105dp"
+        android:layout_width="220dp"
         android:layout_height="43dp"
         android:fontFamily="sans-serif"
-        android:text="Profile"
+        android:text="Developer Info"
         android:textColor="#FAF6F6"
         android:textSize="24sp"
+        android:gravity="center"
         android:textStyle="bold"
         android:paddingLeft="15dp"
         android:typeface="sans"

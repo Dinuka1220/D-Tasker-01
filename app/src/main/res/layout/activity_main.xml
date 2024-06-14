@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#333F3E"
+        android:background="#0f0f51"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="10px"
@@ -22,21 +22,22 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/img" />
+            app:srcCompat="@drawable/img2" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:text="To Do"
-            android:textColor="#E2E3E1"
+            android:text="D Tasker"
+            android:textColor="#9393ad"
             android:textSize="36dp"
-            android:textStyle="bold" />
+            android:textStyle="italic" />
 
         <ProgressBar
             android:id="@+id/progressBar2"
@@ -45,14 +46,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:gravity="center"
-            android:text="Bsoft Production"
-            android:textColor="#E2E3E1"
-            android:textSize="18dp" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
