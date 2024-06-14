@@ -127,3 +127,11 @@ public class main_screen extends AppCompatActivity {
         dialog.getButton(DialogInterface.BUTTON_NEGATIVE).setBackground(getResources().getDrawable(R.drawable.rounded_rectangle));
     }
 }
+
+
+
+
+
+
+
+
