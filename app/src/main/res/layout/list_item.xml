@@ -41,14 +41,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginRight="12dp"
-                    tools:srcCompat="@drawable/edit" />
+                    tools:srcCompat="@drawable/baseline_edit_24" />
 
                 <ImageView
                     android:id="@+id/img_delete"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    tools:srcCompat="@drawable/delete" />
+                    tools:srcCompat="@drawable/baseline_delete_24" />
 
             </LinearLayout>
 

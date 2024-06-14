@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#333F3E"
+        android:background="#0f0f51"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,8 +18,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/main_screen_top_tab"
+            android:layout_height="200dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -30,18 +29,21 @@
 
                 <ImageView
                     android:id="@+id/img_userinfo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="32dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_height="39dp"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/user_pic"
-                    tools:srcCompat="@drawable/user_pic" />
+                    app:srcCompat="@drawable/userinfo"
+                    tools:srcCompat="@drawable/userinfo" />
 
                 <TextView
                     android:id="@+id/txt_mail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textColor="#333F3E"
+                    android:text="My Tasks"
+                    android:textColor="#ffff"
+                    android:textSize="24dp"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -52,26 +54,16 @@
 
                     <ImageView
                         android:id="@+id/img_devinfo"
-                        android:layout_width="wrap_content"
+                        android:layout_width="30dp"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginRight="10dp"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|center_vertical|end"
+                        android:layout_gravity="right"
                         app:srcCompat="@drawable/devinfo"
                         tools:srcCompat="@drawable/devinfo" />
                 </LinearLayout>
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|center_vertical"
-                android:layout_marginTop="75dp"
-                android:layout_marginBottom="75dp"
-                android:gravity="center_horizontal"
-                android:text="Add Your Activities"
-                android:textColor="#333F3E"
-                android:textSize="20dp"
-                android:textStyle="bold" />
 
         </LinearLayout>
 

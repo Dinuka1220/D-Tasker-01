@@ -27,7 +27,7 @@
             android:layout_marginLeft="6dp"
             android:layout_marginTop="0dp"
             android:layout_marginRight="6dp"
-            android:layout_marginBottom="110dp"
+            android:layout_marginBottom="170dp"
             android:background="@drawable/rectangle"
             app:srcCompat="@drawable/img2" />
 
@@ -77,7 +77,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="65dp"
+            android:layout_marginTop="120dp"
             android:background="@drawable/bottom_background_blue"
             android:gravity="center"
             android:orientation="horizontal">
@@ -120,5 +120,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.35000002" />
 </androidx.constraintlayout.widget.ConstraintLayout>
